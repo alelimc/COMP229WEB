@@ -1,3 +1,7 @@
+/* File name: services.css
+Student’s Name: Aleli Macapagal
+StudentID: 301325488
+Date: Jan.27.2024 */
 
 #works {
     margin: 0 auto;
@@ -9,7 +13,6 @@
     align-items: center;
     justify-content: center;
     text-align:center;
-    padding:0 1rem;
 }
 
 
@@ -36,7 +39,7 @@
 .worksImg{
     object-fit: cover;
     height: 20rem;
-    margin: 8.5rem
+    margin: 1rem
 }
 .workBtn {
     padding: 0.5rem 2.5rem;

@@ -1,84 +1,29 @@
-/* NavigationBar.css */
 
-body {
-   background-color: #fff; /* Set the page background color to white */
-   margin: 0; /* Remove default body margin */
-   font-family: 'Arial', sans-serif; /* Optional: Set a specific font-family */
- }
- 
- .navbar {
-   background-color: #333;
-   padding: 10px;
- }
- 
- .nav-list {
-   list-style: none;
-   padding: 0;
-   display: flex;
- }
- 
- .nav-list li {
-   margin-right: 20px;
-   color: #fff;
-   cursor: pointer;
- }
- 
- .nav-list li:hover,
- .nav-list li.active {
-   text-decoration: underline;
- }
- 
- .introContent {
-   height: 100vh;
-   width: 100vw;
-   padding: 2em;
-   font-size: 4em; /* Increase font size for the name */
-   font-weight: 700;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
- }
- 
- .introName {
-   color: rgb(255, 0, 183);
- }
- 
- .hello {
-   font-size: 1.75rem;
-   font-weight: 100;
- }
- 
- .introPara {
-   font-size: medium;
-   font-weight: 100;
-   flex-direction: column;
-   justify-content: center;
- }
- 
- .btn {
-   background: white;
-   margin: 1rem 0;
-   padding: 0.75rem 1.5rem;
-   border: none;
-   border-radius: 2rem;
- }
- 
- 
+ /* File name: index.css
+Student’s Name: Aleli Macapagal
+StudentID: 301325488
+Date: Jan.27.2024 */
 
- 
-
-/* :root {
+ :root {
    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
    line-height: 1.5;
    font-weight: 400;
    color-scheme: light dark;
-   color: rgba(255, 255, 255, 0.87);
-   background-color: #242424;
+   color: rgb(15, 14, 14);
+   background-color: #fbfafa;
    font-synthesis: none;
    text-rendering: optimizeLegibility;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
   }
+
+  .home {
+   font-size: 1.75rem;
+   font-weight: 100;
+   margin-left: 3%;
+   color: rgb(255, 0, 183);
+ } 
+ 
   a {
    font-weight: 500;
    color: #646cff;
@@ -87,17 +32,32 @@ body {
   a:hover {
    color: #535bf2;
   }
+
+  .introName {
+    color: rgb(255, 0, 183);
+   } 
+
+  .introPara {
+    font-weight: 300;
+    font-size: 2rem;
+    /* flex-direction: column; */
+    /* margin-right: 5%;
+    margin-left: 20%; */
+    /* text-align: right; */
+  }
+
   body {
    margin: 0;
-  
    place-items: center;
    min-width: 320px;
    min-height: 100vh;
   }
+
   h1 {
    font-size: 3.2em;
    line-height: 1.1;
   }
+
   button {
    border-radius: 8px;
    border: 1px solid transparent;
@@ -105,32 +65,62 @@ body {
    font-size: 1em;
    font-weight: 500;
    font-family: inherit;
-   background-color: #1a1a1a;
+   background-color: #14aa23a4;
    cursor: pointer;
    transition: border-color 0.25s;
+   height: 110px;
+   width: 100px;
+   position: absolute;
+   left: 12%;
   }
   button:hover {
-   border-color: #646cff;
+   border-color: #d71414;
   }
   button:focus,
   button:focus-visible {
    outline: 4px auto -webkit-focus-ring-color;
   }
+
   @media (prefers-color-scheme: light) {
    :root {
     color: #213547;
     background-color: #ffffff;
    }
+
    a:hover {
-    color: #747bff;
-   }
-   button {
-    background-color: #f9f9f9;
+    color: #f5f237;
    }
   }
+
   nav {
   float:right;
   font-size:x-large;
   }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: min-content;
+    background-color: rgb(255, 0, 183);
+    color: black;
+    text-align: center;
+    font-size: 5px;
+ }
+
+ .image {
+  /* border-radius: 50%; */
+  margin-right: 60px;
+  margin-left: 90px;
+  float: left;
+}
+
+.img {
+  border-radius: 50%;
+  margin-right: 60px;
+  margin-left: 90px;
+  float: left;
+}
   
-   */
+  

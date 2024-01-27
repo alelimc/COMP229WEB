@@ -1,3 +1,8 @@
+/* File name: MainRouter.jsx
+Student’s Name: Aleli Macapagal
+StudentID: 301325488
+Date: Jan.27.2024 */
+
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'

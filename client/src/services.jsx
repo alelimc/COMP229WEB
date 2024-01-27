@@ -1,34 +1,29 @@
-// import project1 from '../src/assets/project1.jpg';
-// import project2 from '../src/assets/project2.jpg';
-// import project3 from '../src/assets/project3.jpg';
-// import project4 from '../src/assets/project4.jpg';
- import project5 from '../src/assets/project5.jpg';
- import project6 from '../src/assets/project6.jpg';
+// File name: services.jsx
+// Student’s Name: Aleli Macapagal
+// StudentID: 301325488
+// Date: Jan.27.2024
+
+import webdes from '../src/assets/images/webdes.jpg';
+import appdev from '../src/assets/images/appdev.jpg';
+import techsupp from '../src/assets/images/techsupp.jpg';
 import { Link } from 'react-router-dom';
-import '../src/index.css'
 import '../src/services.css'
-export default function Project() {
+
+//my portfolio services page
+export default function Services() {
      return <>
      
      <section id="works">
-         
+         {/* display services offered */}
           <h2 className="worksTitle">Services</h2>
           <span className="worksDesc">These are the services that I provide/ 
           I am excited to bring my skills and experience to help your business achieve its goals and create a strong online presence.</span> 
-          <div className="worksImgs">
-                   {/* <img src={project1} alt="project1" className="worksImg" />
-                   <img src={project2} alt="project2" className="worksImg" />
-                   <img src={project3} alt="project3" className="worksImg" />
-                   <img src={project4} alt="project4" className="worksImg" /> */}
-                   <img src={project5} alt="project5" className="worksImg" />
-                   <img src={project6} alt="project6" className="worksImg" />
-                  
-               
-               </div>
+          <div >
+                   <img src={webdes} alt="webdes" className="worksImg" />
+                   <img src={appdev} alt="appdev" className="worksImg" />
+                   <img src={techsupp} alt="techsupp" className="worksImg" />
+          </div>
 
-          {/* <button className="workBtn">See More</button> */}
-                  
-                  
      </section>
     
 

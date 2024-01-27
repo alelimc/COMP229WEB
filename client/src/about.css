@@ -1,3 +1,8 @@
+/* File name: about.css
+Student’s Name: Aleli Macapagal
+StudentID: 301325488
+Date: Jan.27.2024 */
+
 #skill {
     overflow: hidden;
     width: 100vw;
@@ -10,19 +15,27 @@
     margin: 0 auto;
 }
 
-.skillTitle{
+.skillName{
     margin: 1rem 0;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
     padding-top: 3rem;
     margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+.skillTitle{
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
 }
 
 .skillDesc{
     font-weight: 400;
     font-size:xx-large;
-    max-width: 51rem;
-    padding: 0 2rem;
 }
 
 .skillBars{
@@ -51,3 +64,14 @@
     font-size:1.5rem;
     font-weight: 700;
 }
+.skillImg{
+    /* object-fit: cover; */
+    height: 6rem;
+    width: 10rem;
+    margin-right: 2rem;
+}
+
+.image {
+    height: 10rem;
+    width: 10rem;
+ }
